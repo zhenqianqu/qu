@@ -1,0 +1,296 @@
+
+*p {
+    padding: 0.645em 0;
+}
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    font: bold 4.5rem 'Trirong', 'Taviraj', 'Glegoo' serif;
+    text-shadow: 0 0 1px #000;
+}
+h2{
+    font: bold 3rem 'Kurale', 'Times', 'Quando', serif;
+    text-align: center;
+    text-shadow: 0 0 1px yellow;
+    padding-left: 1rem;
+}
+html{
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: 'Titillium Web', 'Arimo', 'Muil' sans-serif;
+    color: red;
+}
+.wrapper{
+    width: 90%;
+    margin: 0.4em auto;
+    box-shadow: 0 3px 6px 0; 
+    background-color: #875907;
+}
+header{
+    width: 100%;
+    color: blue;
+    padding: 2em;
+    background-color: aqua;
+    border-radius: 5px 5px 0 0;
+    background-position: center;
+    background-size: cover;
+    border-bottom: 2px solid white;
+    background-image: url(http://loremflickr.com/200/250/basketball);
+}
+li, p, a{
+    font: 1.3rem 'Open Sans', 'Timmana', 'Mallanna', sans-serif;
+}
+pre, code, kbd{
+    font: normal 1.6rem 'Geo', 'Mouse Memoirs', 'Arya'； 
+}
+nav{
+    width: 90%;
+}
+nav>ul{
+    width: 50%;
+}
+nav li{
+    width: 100%;
+    list-style: none;
+}
+nav a,
+nav a:link,
+nav a:visited{
+    display: block;
+    font: bold 1.5rem 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: #eee;
+    border-bottom: 2px solid white;
+    background-color: #890;
+    transition: background 0.5s;
+}
+nav a:active,
+nav a:focus,
+nav a:hover{
+    background-color: skyblue;
+}
+main{
+    width: 100%;
+    overflow: hidden;
+}
+.colfirst {
+    float: left;
+    width: 50%;
+}
+.colsecond {
+    float: right;
+    width: 50%;
+}
+.img{
+    background-color: white;
+     text-align: center;
+    padding: 0.5em;
+     margin: 0.5em 0 0.9em 0;
+    font-size: 1.3em;
+    border-radius: 3px;
+    font-weight: 700px;
+}
+footer{
+    width: 100%;
+    margin-top: 2em;
+    padding: 1em;
+    background-color: yellow;
+    color: #eee;
+    border-radius: 0 0 5px 5px;
+}
+footer p {
+    font-size: 1em;
+}
+footer li{
+    width: 100%;
+    list-style: none;
+}
+footer a:focus,
+footer a:link,
+footer a:visited{
+    text-decoration: none;
+    color: black;
+    font-size: 0.9em;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+
+@media screen and (min-width:600px){
+    h1{
+        font-size: 2.989em;
+    }
+    h2{
+        font-size: 1.5rem;
+        text-align: left;
+    }
+    li, p, a{
+        font-size: 1em;
+    }
+    .wrapper{
+        width: 100%;
+    }
+    header{
+        padding: 2.89em 5%;
+    }
+    nav{
+        width: 90%;
+    }
+    nav li{
+        width: 20%;
+        float: left;
+    }
+    nav a,
+    nav a:link,
+    nav a:visited{
+        font-size: 1.3rem;
+    }
+    main{
+        width: 90%;
+        margin-top: 2.5em;
+        padding: 2em 0 0.5em 0;
+    }
+    .col {
+        float: left;
+        width: 50%;
+    }
+    p {
+        padding: 0.9em 0 0 0;
+    }
+    .img{
+        width: 60%;
+        font-size: 0.8em;
+        float: left;
+        margin: 1.6em 1em 0 0;
+    }
+    .first{
+        float:left;
+        padding-right: 2.5em;
+    }
+    .second{
+        float:right;
+        padding-left: 2.5em;
+    }
+    footer{
+        width: 90%;
+        clear: both;
+        padding: 1em 5%;
+        height: 7em;
+    }
+    footer li{
+        width: 45%;
+        float: left;
+    }
+    footer p,
+    footer a,
+    footer a:link,
+    footer a:visited{
+        font-size: 1em;
+        padding-bottom: 1.5em;
+    }
+}
+@media screen and (min-width: 1200px){
+    h1 {
+        font-size: 5.57em;
+    }
+    h2 {
+        font-size: 2.5em;
+    }
+    p{
+        font-size: 1.15em;
+    }
+    header {
+        padding: 4em 8%;
+    }
+    main{
+        width: 70%;
+        padding: 0 8% 0 0;
+        margin-top: 7.5em;
+        display: inline-block;
+    }
+    nav a:active;
+    nav a:focus;
+    nav a:hover{
+        padding-left: 33%;
+    }
+    nav{
+        width:  30%;
+        float: left;
+        margin-top: 7.5em;
+    }
+    nav li {
+        width: 100%;
+    }
+    nav a,
+    nav a:link,
+    nav a:visited{
+        padding: 0 0 0.5em 30%;
+        font-size: 1.7em;
+        text-align: left;
+        border: none;
+    }
+    .img{
+        width: 55%;
+        font-size: 0.95em;
+        
+    }
+@media screen and (min-width: 800px){
+    h1 {
+        font-size: 3.97em;
+    }
+    h2 {
+        font-size: 2em;
+    }
+    .img{
+        width: 50%;
+        margin: 2.3em 1.5em 1em 0;
+    }
+    nav{
+        width:  90%;
+        margin: 0.5em auto 0 auto;
+    }
+    }
+    nav a:active,
+    nav a:focus,
+    nav a:hover{
+        color: palevioletred;
+        border-bottom: 2px solid palevioletred;
+    }
+ nav a,
+    nav a:link,
+    nav a:visited{
+        font-size: 1.5rem;
+        color: #556;
+        background-color: palevioletred;
+        transition: all 0.5s;
+}
+    main {
+        padding-top: 3em; 
+        padding-bottom: 1em;
+    }
+    .first{
+        padding-right: 1.5em;
+    }
+    .second{
+        padding-left: 1.5em;
+    }
+    p {
+        padding: 1.5em 0 0 0;
+    }
+    footer{
+        height: 10em;
+    }
+    footer p, 
+    footer a, 
+    footer a:link, 
+    footer a:visited {
+        font-size: 0.9em;
+        padding-bottom: 2em;
+    }
+}
+
+   
